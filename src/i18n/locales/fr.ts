@@ -17,11 +17,11 @@ export default {
   
   // About Section
   "about.title": "À propos de moi",
-  "about.description": "Je suis un développeur full-stack spécialisé dans les technologies web modernes. Solide en front-end et back-end, je crée des applications robustes offrant des expériences utilisateurs exceptionnelles.",
+  "about.description": "Je suis développeur full-stack spécialisé dans les technologies web modernes, capable de prendre en charge l'ensemble du cycle de vie d'un logiciel de la conception et l'architecture système au développement back-end, front-end, jusqu'au déploiement DevOps et cloud. Je conçois des applications web évolutives en utilisant Java, Spring, Angular et des architectures à base de microservices, avec un souci constant de fiabilité, de maintenabilité et de qualité en production.",
   "about.experience": "Années d'expérience",
   "about.projects": "Projets Réalisés",
   "about.clients": "Clients Satisfaits",
-  "about.bio": "Après avoir travaillé dans divers domaines, de l'e-commerce aux solutions d'entreprise, j'ai développé un sens aigu du détail et un engagement pour un code propre et maintenable. J'aime résoudre des problèmes complexes et apprendre en continu de nouvelles technologies pour améliorer mes compétences.",
+  "about.bio": "Ayant travaillé dans divers domaines, notamment dans les solutions d'entreprise (technologies bancaires et financières), j'ai développé un sens aigu du détail et un engagement envers l'écriture d'un code propre et maintenable. J'apprécie particulièrement la résolution de problèmes complexes et l'apprentissage continu de nouvelles technologies afin d'améliorer mes compétences.",
   
   // Skills Section
   "skills.title": "Mes Compétences",

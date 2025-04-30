@@ -17,7 +17,7 @@ export default {
   
   // About Section
   "about.title": "About Me",
-  "about.description": "I'm a full-stack developer with expertise in modern web technologies. With a strong foundation in both back-end and front-end development, I create robust applications that deliver exceptional user experiences. I am more interested in web development with Java, Spring, Angular, microservices architecture, devops and cloud technolgies.",
+  "about.description": "I'm a full-stack developer with expertise in modern web technologies and the ability to manage the entire software development lifecycle from system design and architecture to back-end, front-end, and DevOps/cloud deployment. I specialize in building scalable web applications using Java, Spring, Angular, and microservices architectures, with a strong focus on delivering reliable, maintainable, and production-ready solutions.",
   "about.experience": "Years of Experience",
   "about.projects": "Projects Completed",
   "about.clients": "Satisfied Clients",
