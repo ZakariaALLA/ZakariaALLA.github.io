@@ -145,7 +145,7 @@ export default {
       "id": 2,
       "title": "API de Gestion de Football",
       "description": "Une API RESTful pour la gestion des équipes de football, développée avec Spring Boot et technologies associées.",
-      "image": "/ZakariaALLA.github.io/static/portfolio/footbal1.png",
+      "image": "/static/portfolio/footbal1.png",
       "category": "web",
       "codeUrl": "https://github.com/ZakariaALLA/nice-equipe-football-api",
       "technologies": ["Java 21", "Spring Boot 3.4.4", "Spring Security - JWT", "Docker", "PostgreSQL"]
@@ -154,7 +154,7 @@ export default {
       "id": 1,
       "title": "HRM-RIF",
       "description": "Un système de gestion des ressources humaines.",
-      "image": "/ZakariaALLA.github.io/static/portfolio/hrmrif.PNG",
+      "image": "/static/portfolio/hrmrif.PNG",
       "category": "web",
       "technologies": ["Spring Boot", "Angular", "Microservices", "MySQL"]
     },
@@ -162,7 +162,7 @@ export default {
       "id": 3,
       "title": "DoctoRIF",
       "description": "DoctoRIF aide les patients à trouver leurs médecins. Cette application permet de rechercher des médecins selon différentes spécialités et localisations.",
-      "image": "/ZakariaALLA.github.io/static/portfolio/doctorifss.PNG",
+      "image": "/static/portfolio/doctorifss.PNG",
       "category": "web",
       "technologies": ["Java", "Spring Boot", "Angular", "Microservices", "Spring Cloud", "PostgreSQL"]
     },
@@ -170,7 +170,7 @@ export default {
       "id": 4,
       "title": "Clickshop",
       "description": "Le projet CLICKSHOP est un site de commerce en ligne permettant aux visiteurs de commander et payer des produits liés à la santé et au bien-être.",
-      "image": "/ZakariaALLA.github.io/static/portfolio/clickshopss.PNG",
+      "image": "/static/portfolio/clickshopss.PNG",
       "category": "web",
       "technologies": ["WordPress", "WooCommerce", "Elementor"]
     },
@@ -178,7 +178,7 @@ export default {
       "id": 5,
       "title": "Cinema Hub",
       "description": "Une application web pour gérer les cinémas dans différentes villes.",
-      "image": "/ZakariaALLA.github.io/static/portfolio/cinemahubss.PNG",
+      "image": "/static/portfolio/cinemahubss.PNG",
       "category": "web",
       "codeUrl": "https://github.com/ZakariaALLA/GestionCinema-Angular-Spring-Thymleaf",
       "technologies": ["Spring Boot", "Angular", "Thymeleaf", "MySQL"]
@@ -187,7 +187,7 @@ export default {
       "id": 6,
       "title": "Movie Platform",
       "description": "Une plateforme web de films, réactive et intuitive, utilisant le filtrage du contenu pour les recommandations.",
-      "image": "/ZakariaALLA.github.io/static/portfolio/moviess.PNG",
+      "image": "/static/portfolio/moviess.PNG",
       "category": "web",
       "technologies": ["JavaScript", "PHP", "jQuery", "Bootstrap", "MySQL"]
     },
@@ -195,7 +195,7 @@ export default {
       "id": 7,
       "title": "Massroufi",
       "description": "Une application mobile pour la gestion du budget personnel « مصروفي تحت تصرفي ».",
-      "image": "/ZakariaALLA.github.io/static/portfolio/massroufiss.PNG",
+      "image": "/static/portfolio/massroufiss.PNG",
       "category": "mobile",
       "codeUrl": "https://github.com/ZakariaALLA/MassroufiMobileDev",
       "technologies": ["Flutter", "Dart"]
@@ -204,7 +204,7 @@ export default {
       "id": 8,
       "title": "Gestion UTH",
       "description": "Gestion UTH est un petit système permettant la gestion de l'entreprise UTH GROUPE.",
-      "image": "/ZakariaALLA.github.io/static/portfolio/gestionUthsh.PNG",
+      "image": "/static/portfolio/gestionUthsh.PNG",
       "category": "desktop",
       "technologies": ["Java 8", "JavaFX"]
     },
@@ -212,7 +212,7 @@ export default {
       "id": 9,
       "title": "I Offer For Free",
       "description": "I Offer for Free : Une plateforme où la générosité connecte les gens.",
-      "image": "/ZakariaALLA.github.io/static/portfolio/offreGratuite.PNG",
+      "image": "/static/portfolio/offreGratuite.PNG",
       "category": "web",
       "technologies": ["JavaScript", "PHP", "jQuery", "Bootstrap"]
     }
@@ -222,63 +222,63 @@ export default {
       "id": 2,
       "title": "Football Management API",
       "description": "Une API RESTful robuste pour la gestion des équipes de football, développée avec Spring Boot et des technologies de pointe. Elle propose des endpoints pour créer, mettre à jour et organiser des équipes, des joueurs et des calendriers de matchs. Avec une sécurité intégrée via Spring Security et JWT, et un déploiement évolutif grâce à Docker et PostgreSQL, elle offre une base solide pour des applications ou plateformes liées au football.",
-      "images": ["/ZakariaALLA.github.io/static/portfolio/footbal1.png", "/ZakariaALLA.github.io/static/portfolio/footbal2.png", "/ZakariaALLA.github.io/static/portfolio/footbal3.png"],
+      "images": ["/static/portfolio/footbal1.png", "/static/portfolio/footbal2.png", "/static/portfolio/footbal3.png"],
       "technologies": ["Java 21", "Spring boot 3.4.4", "Spring security - JWT", "Docker", "Postgresql"]
     },
     {
       "id": 1,
       "title": "HRM-RIF",
       "description": "Création d'un système de gestion des ressources humaines composé de deux parties : un backend développé avec Spring Boot et des microservices, et un frontend construit avec Angular. Le backend est organisé selon une architecture microservices, tandis que le frontend utilise Angular pour l'interface utilisateur. Le système comprend plusieurs microservices : ConfigurationService, qui gère les fichiers de configuration et se connecte à un dépôt Git ; ServiceDiscovery, qui surveille l'état (actif/inactif) de tous les microservices ; ServiceGateway avec Zuul, qui agit comme un proxy et sert de point d'entrée principal tout en gérant également l'authentification ; et UserManagement, dédié à la gestion des utilisateurs tels que les directeurs RH, agents de service et employés au sein de l'application HRManagement-RIF.",
-      "videoUrl": "/ZakariaALLA.github.io/static/videos/Demo_HRMRIF_Zakaria_ALLA.mp4",
+      "videoUrl": "/static/videos/Demo_HRMRIF_Zakaria_ALLA.mp4",
       "technologies": ["Java", "Spring Boot", "Angular", "PostgreSQL", "microservices", "API Nexmo"]
     },
     {
       "id": 3,
       "title": "DoctoRIF",
       "description": "DoctoRIF aide les patients à trouver facilement des médecins selon leurs spécialités et leurs localisations. Cette application intuitive permet aux utilisateurs de rechercher des professionnels de santé dans divers domaines, garantissant ainsi un accès rapide aux soins appropriés. Développée avec un backend robuste utilisant Java, Spring Boot, une architecture microservices et Spring Cloud, ainsi qu'un frontend dynamique sous Angular, DoctoRIF assure une expérience utilisateur fluide, évolutive et performante, avec PostgreSQL comme solution de base de données.",
-      "videoUrl": "/ZakariaALLA.github.io/static/videos/DemoApplicationDoctorif.mp4",
+      "videoUrl": "/static/videos/DemoApplicationDoctorif.mp4",
       "technologies": ["Java", "Spring Boot", "Angular", "Microservices", "Spring Cloud", "PostgreSQL"]
     },
     {
       "id": 4,
       "title": "Clickshop",
       "description": "CLICKSHOP est un site de commerce en ligne dédié à l'offre d'une large gamme de produits de santé et de bien-être. Les visiteurs peuvent facilement parcourir le catalogue, passer commande et effectuer leurs achats en ligne en toute sécurité. Développée avec WordPress, WooCommerce et Elementor, la plateforme offre un design réactif, une navigation fluide et un puissant système de gestion de contenu, garantissant une expérience d'achat optimale pour les clients comme pour les administrateurs.",
-      "videoUrl": "/ZakariaALLA.github.io/static/videos/clickshopVF.mp4",
+      "videoUrl": "/static/videos/clickshopVF.mp4",
       "technologies": ["WordPress", "WooCommerce", "Elementor"]
     },
     {
       "id": 5,
       "title": "Cinema Hub",
       "description": "Cinema Hub est un système de gestion web destiné aux cinémas situés dans différentes villes, permettant aux administrateurs de gérer les programmes de films, les salles de cinéma et les réservations de billets efficacement. Construit avec Spring Boot, Angular, Thymeleaf et MySQL, cette plateforme offre une interface fiable et intuitive pour optimiser à la fois les opérations quotidiennes et l'interaction avec les clients.",
-      "images": ["/ZakariaALLA.github.io/static/portfolio/frontOffice.png", "/ZakariaALLA.github.io/static/portfolio/backOffice.png"],
+      "images": ["/static/portfolio/frontOffice.png", "/static/portfolio/backOffice.png"],
       "technologies": ["Spring Boot", "Angular", "Thymeleaf", "MySQL"]
     },
     {
       "id": 6,
       "title": "Movie Platform",
       "description": "Movie Platform est une application web réactive et intuitive conçue pour les amateurs de cinéma souhaitant explorer un large éventail de films. Elle propose un système avancé de filtrage de contenu et de recommandations pour personnaliser l'expérience utilisateur. Développée avec JavaScript, PHP, jQuery, Bootstrap et MySQL, cette plateforme garantit une navigation rapide, une présentation dynamique des contenus et une expérience de consultation agréable pour tous les utilisateurs.",
-      "videoUrl": "/ZakariaALLA.github.io/static/videos/movies.mp4",
+      "videoUrl": "/static/videos/movies.mp4",
       "technologies": ["JavaScript", "PHP", "jQuery", "Bootstrap", "MySQL"]
     },
     {
       "id": 7,
       "title": "Massroufi",
       "description": "Massroufi est une application mobile créée pour aider les individus à mieux gérer leur budget personnel, avec pour slogan « مصروفي تحت تصرفي » signifiant « Mes dépenses sous mon contrôle ». Développée avec Flutter et Dart, l'application propose une interface épurée et conviviale pour suivre les revenus, les dépenses et les économies, permettant aux utilisateurs de reprendre le contrôle de leur santé financière directement depuis leur smartphone.",
-      "videoUrl": "/ZakariaALLA.github.io/static/videos/massroufi.mp4",
+      "videoUrl": "/static/videos/massroufi.mp4",
       "technologies": ["Flutter", "Dart"]
     },
     {
       "id": 8,
       "title": "Gestion UTH",
       "description": "Gestion UTH est un système de gestion de bureau léger développé pour la société UTH GROUPE afin de faciliter la gestion des opérations et des ressources internes. Construit avec Java 8 et JavaFX, l'application fournit une interface simple et efficace pour gérer les processus métiers essentiels, améliorant ainsi la productivité organisationnelle et l'aide à la prise de décision.",
-      "videoUrl": "/ZakariaALLA.github.io/static/videos/gestionUTH.mp4",
+      "videoUrl": "/static/videos/gestionUTH.mp4",
       "technologies": ["Java 8", "JavaFX"]
     },
     {
       "id": 9,
       "title": "I Offer For Free",
       "description": "I Offer For Free est une plateforme web conçue pour connecter les personnes à travers la générosité en leur permettant d'offrir et de recevoir gratuitement des biens ou des services. Développée avec JavaScript, PHP, jQuery et Bootstrap, l'application favorise un environnement communautaire axé sur le partage et l'entraide, contribuant à rendre le monde un peu plus solidaire et connecté.",
-      "videoUrl": "/ZakariaALLA.github.io/static/videos/offreGratuitement.mp4",
+      "videoUrl": "/static/videos/offreGratuitement.mp4",
       "technologies": ["JavaScript", "PHP", "jQuery", "Bootstrap"]
     }
   ],  

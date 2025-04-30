@@ -20,7 +20,7 @@ export function About() {
         <div className="relative animate-fade-in">
           <div className="absolute inset-0 bg-blue-gradient opacity-10 rounded-xl transform rotate-3"></div>
           <img 
-            src="/ZakariaALLA.github.io/static/img/logoWhite.png" 
+            src="/static/img/logoWhite.png" 
             alt="Zakaria Alla" 
             className="rounded-lg shadow-lg relative z-10 w-full max-w-md mx-auto"
           />

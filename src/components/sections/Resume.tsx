@@ -68,7 +68,7 @@ export function Resume() {
   // Experience data
   const experience = t('resume.experience.list', { returnObjects: true });
   const handleDownload = () => {
-    window.open('/ZakariaALLA.github.io/static/pdf/CV_Zakaria_alla_dev_fullstack_vFr.pdf', '_blank');
+    window.open('/static/pdf/CV_Zakaria_alla_dev_fullstack_vFr.pdf', '_blank');
   };
 
   return (

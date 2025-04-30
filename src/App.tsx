@@ -17,7 +17,7 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <Routes>
-          <Route path="/ZakariaALLA.github.io/" element={<Index />} />
+          <Route path="/" element={<Index />} />
           <Route path="/projects/:id/demo" element={<ProjectDemo />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
