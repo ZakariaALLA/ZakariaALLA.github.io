@@ -36,10 +36,31 @@ export default {
   "resume.certifications": "Certifications",
   "resume.experience.list": [
     {
+      company: "Questel",
+      role: "Ingénieur Backend",
+      period: "Octobre 2025 – Présent",
+      location: "Sophia Antipolis",
+      intro: "Questel est un acteur mondial des solutions SaaS dédiés à la propriété intellectuelle (brevets, marques, designs). L’entreprise accompagne plus de 20 000 clients et 1,5 million d’utilisateurs dans plus de 30 pays. Au sein de Questel, j’ai intégré l’équipe DAAS (Data As A Service), ou j’ai participé à la modernisation d’applications legacy vers une architecture Java/Spring Boot moderne et au développement de pipelines de traitement de données à forte volumétrie. Contribution à la valorisation des données brevets via des API et des solutions basées sur l’IA (LLM), dans un environnement orienté performance, scalabilité et qualité logicielle.",
+      team: "1 Scrum Master/Chef de projet, 1 Product Owner, 10 ingénieurs (dev, data, dba ...).",
+      missions: [
+        "Conception refonte et migration des applications Legacy (> 15 ans) vers une architecture moderne (spring boot 3, java 21)",
+        "Conception et développement d’un batch qui charge, traite et enregistre des fichiers PDF/XML multilingues (+100,000 fichiers par semaine).",
+        "Développement d’une API de pré-computing de résumé de brevets via LLM OpenAI, et OpenPDF.",
+        "Analyse, traitement, filtrage et normalisation de données pour fiabiliser les datasets.",
+        "Modélisation et stockage des données dans MySQL (plus de 24M de dessins et modèles), avec optimisation des schémas et des requêtes SQL.",
+        "Le développement des batch java et des web services REST.",
+        "Analyse et chiffrage des US",
+        "La revue de code et la validation des pull requests,",
+        "L’écriture des dockerfile, docker-compose et la chaîne GitLab CI/CD.",
+        "Echange et coordination avec l’équipe System."
+      ],      
+      technologies: "Java (8, 17, 21), JEE, Spring, Spring Boot, OpenAPI, MySQL, MariaDB, Maven, Git, GitLab, CI/CD, Docker, Docker Compose, Python, Spark, Elasticsearch, Cloud, AWS (S3), Confluence, Agile, Scrum."
+    },
+    {
       company: "Econocom",
       client: "Client CDC",
       role: "Ingénieur Informatique",
-      period: "Avril 2024 – Présent",
+      period: "Avril 2024 – Octobre 2025",
       location: "Paris",
       intro: "Au sein du client CDC (Caisse des Dépôts et de Consignation), j’ai travaillé sur deux projets stratégiques dans le domaine de la gestion des risques bancaires.",
       projects: [

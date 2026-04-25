@@ -21,16 +21,26 @@ interface TimelineItemProps {
 const TimelineItem = ({ title, place, role, period, location, intro, projects, team, missions, technologies }) => (
   <div className="mb-8 relative w-full">
     <div className="flex flex-col md:flex-row md:items-center justify-between mb-2">
-      <h3 className="text-xl font-bold text-blue-500">{title} - {place} | {role}</h3>
+      <h3 className="text-xl font-bold text-blue-500">{title} {place && (<> - {place}</>)} | {role}</h3>
       <span className="text-sm bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300 px-3 py-1 rounded-full mt-1 md:mt-0">
         {period}, {location}
       </span>
     </div>
     <h4 className="text-lg mb-2 font-medium">{intro}</h4>
-    <h3 className="ml-3 text-md font-bold text-green-500">{projects[0].label}</h3>
-    <p className="ml-3 text-md-foreground">{projects[0].desc}</p>
-    <h3 className="ml-3 text-md font-bold text-green-500">{projects[1].label}</h3>
-    <p className="ml-3 text-md-foreground">{projects[1].desc}</p>
+    {projects && projects.length > 0 && (
+      <>
+        {projects.map((project, index) => (
+          <div key={index}>
+            <h3 className="ml-3 text-md font-bold text-green-500">
+              {project.label}
+            </h3>
+            <p className="ml-3 text-md-foreground">
+              {project.desc}
+            </p>
+          </div>
+        ))}
+      </>
+    )}
     <br></br>
     <p className="ml-3 text-md-foreground">Team : {team}</p>
     <br></br>

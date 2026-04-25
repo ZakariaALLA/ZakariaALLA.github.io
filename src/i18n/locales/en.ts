@@ -37,6 +37,27 @@ export default {
   "resume.certifications": "Certifications",
   "resume.experience.list": [
     {
+      company: "Questel",
+      role: "Backend Engineer",
+      period: "October 2025 – Present",
+      location: "Sophia Antipolis",
+      intro: "Questel is a global provider of SaaS solutions dedicated to intellectual property (patents, trademarks, and designs). The company supports more than 20,000 clients and 1.5 million users across over 30 countries. Within Questel, I joined the DAAS (Data As A Service) team, where I contributed to modernizing legacy applications into a modern Java/Spring Boot architecture and developing high-volume data processing pipelines. I also contributed to enhancing patent data through APIs and AI-based solutions (LLMs), in an environment focused on performance, scalability, and software quality.",
+      team: "1 Scrum Master/Project Manager, 1 Product Owner, 10 engineers (developers, data engineers, DBAs, etc.).",
+      missions: [
+        "Designed, refactored, and migrated legacy applications (15+ years old) to a modern architecture (Spring Boot 3, Java 21).",
+        "Designed and developed a batch process to load, process, and store multilingual PDF/XML files (100,000+ files per week).",
+        "Developed an API for precomputing patent summaries using OpenAI LLMs and OpenPDF.",
+        "Analyzed, processed, filtered, and normalized data to improve dataset reliability.",
+        "Modeled and stored data in MySQL (over 24 million designs), optimizing schemas and SQL queries.",
+        "Developed Java batch jobs and REST web services.",
+        "Analyzed and estimated user stories.",
+        "Performed code reviews and validated pull requests.",
+        "Wrote Dockerfiles, docker-compose configurations, and maintained GitLab CI/CD pipelines.",
+        "Collaborated and coordinated with the System team."
+      ],
+      technologies: "Java (8, 17, 21), JEE, Spring, Spring Boot, OpenAPI, MySQL, MariaDB, Maven, Git, GitLab, CI/CD, Docker, Docker Compose, Python, Spark, Elasticsearch, Cloud, AWS (S3), Confluence, Agile, Scrum."
+    },
+    {
       company: "Econocom",
       client: "CDC (Caisse des Dépôts et Consignations)",
       role: "IT Engineer",
